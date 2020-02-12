@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.css';
+
+html{
+  font-size:16px;
+}
+html,body,#root{
+  height:100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 4rem;
+  padding:0 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* why did he put it in the app.js instead of here?
+.input {
+  font-size:5px;
+  height:48px; 
+}
+
+.button {
+  margin-left:5px;
+  height:48px;
+} */
+
